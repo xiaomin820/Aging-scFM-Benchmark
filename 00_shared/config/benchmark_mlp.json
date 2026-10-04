@@ -1,0 +1,22 @@
+{
+  "architecture": [512, 128, 1],
+  "hidden_normalization": "LayerNorm",
+  "activation": "ReLU",
+  "dropout": 0.2,
+  "validation_fraction": 0.1,
+  "validation_unit": "donorID",
+  "composition_stratum": "cell_type",
+  "classification_balance": "cell_type-by-class composition",
+  "optimizer": "AdamW",
+  "learning_rate": 0.001,
+  "weight_decay": 0.0001,
+  "batch_size": 256,
+  "maximum_epochs": 100,
+  "early_stopping_patience": 5,
+  "gradient_clip_max_norm": 5.0,
+  "seed": 42,
+  "regression_loss": "MSELoss",
+  "classification_loss": "BCEWithLogitsLoss",
+  "classification_threshold": 0.5,
+  "standardization": "feature-wise mean and standard deviation fitted on training donors only"
+}
