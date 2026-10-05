@@ -1,0 +1,10 @@
+{
+  "data_directory": "data",
+  "expected_contexts": {"T1": 2, "T2": 6, "T3": 3, "T4": 4, "T5": 1},
+  "expected_complete_methods": {"T1": 14, "T2": 13, "T3": 14, "T4": 15, "T5": 11},
+  "task5_candidate_pairs": 163280,
+  "task5_union_positives": 438,
+  "task5_bootstrap_replicates": 2000,
+  "ap_absolute_tolerance": 1e-12,
+  "published_table_rounding_tolerance": 5.1e-7
+}

@@ -1,0 +1,2 @@
+model,cell_type,seurat,embedding,root_cells
+scGPT,Excitatory neuron,../data/external/local/zebra_healthy.rds,../data/external/local/scGPT_embeddings.csv,../data/external/local/roots_excitatory.txt
